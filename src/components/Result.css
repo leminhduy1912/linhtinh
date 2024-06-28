@@ -1,0 +1,21 @@
+.main {
+  background-color: black;
+  color: #fff;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.odometer {
+  font-size: 22px;
+}
+.odometer > span {
+  font-weight: 550;
+  margin-left: 0.1px;
+  margin-right: 0.1px;
+}
+.unit {
+  font-size: 15px;
+  font-weight: 800;
+}
