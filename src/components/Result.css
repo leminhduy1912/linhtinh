@@ -7,14 +7,25 @@
   padding: 50px;
 }
 
-.odometer {
+/* .odometer {
   font-size: 22px;
-}
+} */
 .odometer > span {
   font-weight: 550;
   margin-left: 0.1px;
   margin-right: 0.1px;
 }
+.odometer {
+  font-size: 22px;
+  letter-spacing: 0.1px; /* Bạn có thể điều chỉnh giá trị này theo nhu cầu */
+}
+
+/* .odometer > span {
+  font-weight: 550;
+  margin-left: 0;
+  margin-right: 0;
+} */
+
 .unit {
   font-size: 15px;
   font-weight: 800;
