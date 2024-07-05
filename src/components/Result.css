@@ -2,9 +2,22 @@
   background-color: black;
   color: #fff;
 
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
   text-align: center;
   padding: 50px;
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+  /* font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 594;
+  font-style: normal;
+  font-variation-settings: "wdth" 75; */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 610;
+  font-style: normal;
+  font-variation-settings: "wdth" 81.8;
 }
 
 /* .odometer {
@@ -12,12 +25,11 @@
 } */
 .odometer > span {
   font-weight: 550;
-  margin-left: 0.1px;
-  margin-right: 0.1px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .odometer {
   font-size: 22px;
-  letter-spacing: 0.1px; /* Bạn có thể điều chỉnh giá trị này theo nhu cầu */
 }
 
 /* .odometer > span {

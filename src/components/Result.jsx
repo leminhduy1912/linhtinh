@@ -8,9 +8,10 @@ const Result = (props) => {
     <>
       <div className="main">
         <div className="odometer">
-          {digits.map((digit, index) => (
+          {/* {digits.map((digit, index) => (
             <span key={index}>{digit}</span>
-          ))}
+          ))} */}
+          {"096578"}
           <span className="unit">km</span>
         </div>
       </div>
