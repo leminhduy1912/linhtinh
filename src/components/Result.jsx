@@ -3,7 +3,7 @@ import "./Result.css";
 const Result = (props) => {
   console.log(props);
   const { number } = props;
-  const digits = number.toString().split("");
+
   return (
     <>
       <div className="main">
@@ -11,7 +11,7 @@ const Result = (props) => {
           {/* {digits.map((digit, index) => (
             <span key={index}>{digit}</span>
           ))} */}
-          {"096578"}
+          {number}
           <span className="unit">km</span>
         </div>
       </div>
