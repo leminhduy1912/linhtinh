@@ -2,26 +2,12 @@
   background-color: #1c2125;
   color: #fbfcfd;
 
-  /* font-family: Arial, sans-serif; */
   text-align: center;
   padding: 50px;
-  /* font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal; */
-  /* font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 594;
-  font-style: normal;
-  font-variation-settings: "wdth" 75; */
-  /* font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 610;
-  font-style: normal;
-  font-variation-settings: "wdth" 81.8; */
 
-  font-family: "Alata", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 750;
-  font-style: normal;
+
   letter-spacing: -0.7px;
 }
 
