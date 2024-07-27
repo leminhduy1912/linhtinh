@@ -5,11 +5,11 @@
   text-align: center;
   padding: 50px;
 
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
   font-style: normal;
 
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
 }
 
 /* .odometer {
@@ -17,7 +17,7 @@
 } */
 .odometer > span {
   font-weight: 550;
-  margin-left: 0px;
+  margin-left: 1px;
   margin-right: 0px;
 }
 .odometer {
@@ -31,6 +31,7 @@
 } */
 
 .unit {
+  margin-left: 2px;
   font-size: 15px;
   font-weight: 800;
 }
