@@ -6,7 +6,10 @@ const Result = ({ number }) => {
     <>
       <div className="main">
         <div className="odometer">
-          {digits.map((digit, index) => {
+          {digits.map((item, index) => {
+            return <span key={index}>{item}</span>;
+          })}
+          {/* {digits.map((digit, index) => {
             if (digit == 3) {
               return (
                 <div key={index}>
@@ -55,7 +58,7 @@ const Result = ({ number }) => {
             } else {
               return <div key={index}>{digit}</div>;
             }
-          })}
+          })} */}
 
           <span className="unit">km</span>
         </div>
