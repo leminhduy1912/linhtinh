@@ -7,7 +7,19 @@ const Result = ({ number }) => {
       <div className="main">
         <div className="odometer">
           {digits.map((item, index) => {
-            return <span key={index}>{item}</span>;
+            return (
+              <span
+                key={index}
+                style={{
+                  fontFamily: "Zain",
+                  fontSize: "16px",
+                  fontWeight: "600",
+                  fontStyle: "normal",
+                }}
+              >
+                {item}
+              </span>
+            );
           })}
           {/* {digits.map((digit, index) => {
             if (digit == 3) {
