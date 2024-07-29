@@ -9,7 +9,7 @@ import num6 from '../assets/so6.jpg';
 import num7 from '../assets/so7.jpg';
 import num8 from '../assets/so8.jpg';
 import num9 from '../assets/so9.jpg';
-
+import km from '../assets/km.jpg'
 import { FaSquareFull } from "react-icons/fa";
 
 const Result = ({ number }) => {
@@ -27,7 +27,7 @@ const Result = ({ number }) => {
             }
             if (digit == 1) {
               return (
-<img src={num1} alt="" />
+                  <img src={num1} alt="" />
               )
              
             }
@@ -71,80 +71,13 @@ const Result = ({ number }) => {
                 <img src={num9} alt="" />
                               )
             }
-           
-            // if (digit == 3) {
-            //   return (
-            //     <div key={index}>
-            //       <span>{digit}</span>
-            //     </div>
-            //   );
-            // }
-            // return (
-            //   <span
-            //     key={index}
-            //     style={{
-            //       fontFamily: "Zain",
-            //       fontSize: "16px",
-            //       fontWeight: "650",
-            //       fontStyle: "normal",
-            //     }}
-            //   >
-            //     {item}
-            //   </span>
-            // );
+            
+            
           })}
-          {/* {digits.map((digit, index) => {
-            if (digit == 3) {
-              return (
-                <div key={index}>
-                  <span
-                    style={{
-                      position: "relative",
-                    }}
-                  >
-                    {digit}
-                    <FaSquareFull
-                      color="#1c2125"
-                      style={{
-                        width: "0.1rem",
-                        height: "0.1rem",
-                        position: "absolute",
-                        top: "0.72rem",
-                        left: "0.12rem",
-                      }}
-                    />
-                  </span>
-                </div>
-              );
-            } else if (digit == 4) {
-              return (
-                <div key={index}>
-                  <span
-                    style={{
-                      position: "relative",
-                    }}
-                  >
-                    {digit}
-                    <FaSquareFull
-                      style={{
-                        backgroundColor: "red",
-                        width: "0.02rem",
-                        minHeight: "0.5rem",
-                        maxHeight: "1rem",
-                        position: "absolute",
-                        top: "0.8rem",
-                        left: "0.328rem",
-                      }}
-                    />
-                  </span>
-                </div>
-              );
-            } else {
-              return <div key={index}>{digit}</div>;
-            }
-          })} */}
-
-          {/* <span className="unit">km</span> */}
+          
+          <img src={km} alt="" className=" mt-2 "/>
+     
+         
         </div>
       </div>
     </>
