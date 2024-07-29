@@ -1,13 +1,13 @@
 import "./Result.css";
 import num0 from '../assets/so0.jpg';
-
 import num1 from '../assets/so1.jpg';
 import num2 from '../assets/so2.jpg';
 import num3 from '../assets/so3.jpg';
 import num4 from '../assets/so4.jpg';
 import num5 from '../assets/so5.jpg';
 import num6 from '../assets/so6.jpg';
-
+import num7 from '../assets/so7.jpg';
+import num8 from '../assets/so8.jpg';
 import num9 from '../assets/so9.jpg';
 
 import { FaSquareFull } from "react-icons/fa";
@@ -56,12 +56,15 @@ const Result = ({ number }) => {
                 <img src={num6} alt="" />
                               )
             }
+            if (digit == 7) {
+              return (
+                <img src={num7} alt="" />
+                              )
+            }
             if (digit == 8) {
               return (
-                <div key={index}>
-                  <span>{digit}</span>
-                </div>
-              );
+                <img src={num8} alt="" />
+                              )
             }
             if (digit == 9) {
               return (
