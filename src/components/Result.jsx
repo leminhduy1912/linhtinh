@@ -5,7 +5,9 @@ import num1 from '../assets/so1.jpg';
 import num2 from '../assets/so2.jpg';
 import num3 from '../assets/so3.jpg';
 import num4 from '../assets/so4.jpg';
+import num5 from '../assets/so5.jpg';
 import num6 from '../assets/so6.jpg';
+
 import num9 from '../assets/so9.jpg';
 
 import { FaSquareFull } from "react-icons/fa";
@@ -44,23 +46,11 @@ const Result = ({ number }) => {
                 <img src={num2} alt="" />
                               )
             }
-            // if (digit == 3) {
-            //   return (
-            //     <div key={index}>
-            //       <span
-            //         style={{
-            //           fontFamily: "Roboto Mono,monospace",
-            //           fontOpticalSizing: "auto",
-            //           fontSize: "0.6rem",
-            //           fontWeight: "bold",
-            //           fontStyle: "normal",
-            //         }}
-            //       >
-            //         {digit}
-            //       </span>
-            //     </div>
-            //   );
-            // }
+            if (digit == 5) {
+              return (
+                <img src={num5} alt="" />
+                              )
+            }
             if (digit == 6) {
               return (
                 <img src={num6} alt="" />
