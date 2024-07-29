@@ -4,13 +4,13 @@
   text-align: center;
   padding: 50px;
   font-family: "Dongle", sans-serif;
-  font-weight: 800;
+  font-weight: 950;
   font-style: normal;
   letter-spacing: -0.5px;
 }
 .odometer > div {
-  font-weight: 600;
-  margin-left: 1px;
+  font-weight: 700;
+  margin-left: 0.5px;
   max-height: -10px;
 }
 .odometer > span {
