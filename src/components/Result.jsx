@@ -31,6 +31,11 @@ const Result = ({ number }) => {
               )
              
             }
+            if (digit == 2) {
+              return (
+                <img src={num2} alt="" />
+                              )
+            }
             if (digit == 3) {
               return (
                 <img src={num3} alt="" />
@@ -41,11 +46,7 @@ const Result = ({ number }) => {
                 <img src={num4} alt="" />
                               )
             }
-            if (digit == 2) {
-              return (
-                <img src={num2} alt="" />
-                              )
-            }
+          
             if (digit == 5) {
               return (
                 <img src={num5} alt="" />
