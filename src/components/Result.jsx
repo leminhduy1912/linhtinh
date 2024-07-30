@@ -75,8 +75,9 @@ const Result = ({ number }) => {
             
             
           })}
+          <span className="unit">km</span>
           
-          <img src={km} alt="" className=" mt-5 "/>
+          {/* <img src={km} alt="" className=" mt-5 "/> */}
      
          
         </div>
