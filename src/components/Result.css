@@ -6,9 +6,9 @@
   font-family: "Dongle", sans-serif;
   font-weight: 900;
   font-style: normal;
-  letter-spacing: -0.5px;
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
+  /* letter-spacing: -0.5px; */
+  /* font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto; */
 }
 .odometer > div {
   font-weight: 700;
