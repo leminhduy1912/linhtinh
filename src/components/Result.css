@@ -1,11 +1,10 @@
 .main {
-  background-color: #212121;
+  background-color: black;
   color: #fbfcfd;
   text-align: center;
   padding: 50px;
-  font-family: "Dongle", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+  /* font-family: "Dongle", sans-serif; */
+
   /* letter-spacing: -0.5px; */
   /* font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto; */
@@ -13,10 +12,9 @@
 .odometer > div {
   font-weight: 700;
   margin-left: 0.5px;
-  max-height: -10px;
 }
 .odometer > span {
-  margin-left: 0.5px;
+  margin-left: -0.5px;
 }
 .odometer {
   font-size: 16px;
