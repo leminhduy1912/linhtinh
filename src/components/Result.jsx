@@ -76,7 +76,7 @@ const Result = ({ number }) => {
             
           })}
           
-          {/* <img src={km} alt="" className=" mt-2 "/> */}
+          <img src={km} alt="" className=" mt-5 "/>
      
          
         </div>
